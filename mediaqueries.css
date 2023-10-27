@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px) {
+    body {
+        justify-content: center;
+        justify-text: center;
+    }
+    .cards, #profile, #about,
+    #experience, #projects {
+        display: grid;
+        justify-items: center;
+    }
+
+    #profile-img-section {
+        margin-top: 30%;
+        margin-bottom: -30%;
+    }
+
+    section {
+        margin-bottom: 10rem;
+        height: fit-content;
+        align-items: flex-start;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
