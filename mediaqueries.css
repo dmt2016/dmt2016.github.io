@@ -13,6 +13,7 @@
 
     #profile {
         height: 30%;
+        margin-bottom: 10rem;
     }
 
     #profile-img-section {
@@ -27,6 +28,10 @@
 
     #about, #experience, #projects {
         height: 20%;
+    }
+
+    .fSkill {
+        min-width: 18vw;
     }
 
     #desktop-nav {

@@ -156,7 +156,7 @@ a:hover {
 }
 
 .pbutton {
-    border-radius: 2rem;
+    border-radius: 3rem;
     padding: 1rem;
     font-weight: 600;
     width: 9rem;
@@ -220,7 +220,7 @@ i {
 }
 
 .box, .box1, .box2 {
-    min-width: 30vh;
+    min-width: 40vw;
     text-align: center;
     padding: 1.5rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -229,16 +229,16 @@ i {
 }
 
 .cont-section {
-    padding: 10rem;
+    padding: 5rem;
     text-align: center;
     display: relative;
     justify-content: center;
     gap: 1rem;
 }
 
-.about-text{
+.about-text {
     color: gray;
-    min-width: 35vh;
+    min-width: 45vw;
 }
 
 .img2 {
@@ -250,6 +250,10 @@ i {
 .fSkill {
     display: flex;
     gap: 1rem;
+}
+
+.skill-text {
+    min-width: 10vw;
 }
 
 .skill-text {
