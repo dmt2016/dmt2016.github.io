@@ -156,7 +156,7 @@ a:hover {
 }
 
 .pbutton {
-    border-radius: 3rem;
+    border-radius: 2rem;
     padding: 1rem;
     font-weight: 600;
     width: 9rem;
@@ -173,6 +173,10 @@ a:hover {
 
 .btn-color2, .btn-color {
     background: none;
+}
+
+.btn-color2 {
+    border-color: black;
 }
 
 .buttons{
@@ -238,7 +242,7 @@ i {
 
 .about-text {
     color: gray;
-    min-width: 45vw;
+    min-width: 50vw;
 }
 
 .img2 {
