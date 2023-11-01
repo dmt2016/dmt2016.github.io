@@ -240,9 +240,9 @@ i {
     gap: 1rem;
 }
 
-.about-text {
+.about-text, .skill-text {
     color: gray;
-    min-width: 50vw;
+    min-width: 400px;
 }
 
 .img2 {
@@ -257,11 +257,8 @@ i {
 }
 
 .skill-text {
-    min-width: 10vw;
-}
-
-.skill-text {
     text-align: left;
+    min-width: 10vw;
 }
 
 .double {
