@@ -220,7 +220,7 @@ i {
 }
 
 .box, .box1, .box2 {
-    min-width: 55vh;
+    min-width: 30vh;
     text-align: center;
     padding: 1.5rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -239,14 +239,6 @@ i {
 .about-text{
     color: gray;
     min-width: 35vh;
-}
-
-.know {
-    margin: auto;
-}
-
-.about {
-    margin-bottom: 4rem;
 }
 
 .img2 {
@@ -275,8 +267,16 @@ i {
     margin: 1rem;
 }
 
+h1 {
+    margin-bottom: 3rem;
+}
+
 h4 {
     margin-bottom: 1.5rem;
+}
+
+#title {
+    margin-bottom: 0;
 }
 
 .btn-color {
@@ -321,6 +321,6 @@ h4 {
     width: 30px;
 }
 
-#about, #experience, #projects {
+#about, #experience, #projects, #contact {
     position: relative;
 }

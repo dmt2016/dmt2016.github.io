@@ -3,21 +3,30 @@
         justify-content: center;
         justify-text: center;
     }
-    .cards, #profile, #about,
-    #experience, #projects {
-        display: grid;
+
+    .cards, #about, #profile,
+    #experience, #projects, #contact {
+        display: flex;
+        flex-wrap: wrap;
         justify-items: center;
     }
 
+    #profile {
+        height: 30%;
+    }
+
     #profile-img-section {
-        margin-top: 30%;
-        margin-bottom: -30%;
+        margin-top: 0;
     }
 
     section {
-        margin-bottom: 10rem;
-        height: fit-content;
         align-items: flex-start;
+        margin-bottom: 3rem;
+        min-width: 600px;
+    }
+
+    #about, #experience, #projects {
+        height: 20%;
     }
 
     #desktop-nav {
@@ -32,6 +41,26 @@
         display: none;
     }
 
+    #img1 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .box2 {
+        min-width: 60vw;
+    }
+
+    #contact {
+        height: 10%;
+    }
+
+    .text {
+        min-width: 800px;
+    }
+
+    .double {
+        gap: 10rem;
+    }
 }
 
 
