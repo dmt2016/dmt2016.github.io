@@ -226,7 +226,7 @@ i {
 .box, .box1, .box2 {
     min-width: 40vw;
     text-align: center;
-    padding: 1.5rem;
+    padding: 3rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     border-radius: 2rem;
