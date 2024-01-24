@@ -220,13 +220,13 @@ i {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.box, .box1, .box2 {
+.box, .box1, .box2, .pbox {
     min-width: 40vw;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     border-radius: 2rem;
@@ -254,6 +254,7 @@ i {
 .fSkill {
     display: flex;
     gap: 1rem;
+    padding-left: 2rem;
 }
 
 .skill-text {
@@ -269,7 +270,6 @@ i {
 .app {
     width: 500px;
     height: 200px;
-    margin: 1rem;
 }
 
 h1 {
@@ -290,7 +290,7 @@ h4 {
 }
 
 .screen {
-    display: flex;
+    display: grid;
     justify-self: center;
     justify-content: center;
     margin-bottom: 1rem;
@@ -324,6 +324,24 @@ h4 {
     position: absolute;
     height: 30px;
     width: 30px;
+}
+
+.pbox{
+    display: grid;
+    padding: 2rem 1rem;
+    min-width: 30vw;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pbox p{
+    font-size: small;
+    margin-top: .1rem;
+    margin-bottom: .25rem;
+}
+
+#adjust{
+    margin-top: -.95rem;
 }
 
 #about, #experience, #projects, #contact {

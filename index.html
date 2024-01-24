@@ -18,7 +18,7 @@
     <div>
         <ul class="navlinks">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -34,8 +34,8 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
@@ -54,7 +54,7 @@
             <p>Full Stack Developer</p>
         </div>
         <div class="buttons">
-            <button class="pbutton btn-color1" onclick="window.open('./assets/programming resume.pdf')">Download CV</button>
+<!--            <button class="pbutton btn-color1" onclick="window.open('./assets/programming resume.pdf')">Download CV</button>-->
             <button class="pbutton btn-color2" onclick="location.href='#contact'">Contact Info</button>
         </div>
         <div id="profile-icons">
@@ -74,13 +74,13 @@
             <div class="box">
                 <img class="img2" src="./assets/briefcase-solid.svg">
                 <h3>Experience</h3>
-                <p class="about-text">1+ years <br /> Full Stack Development</p>
+                <p class="about-text">3+ years <br /> Full Stack Development</p>
             </div>
             <div class="box">
                 <img class="img2" src="./assets/award-solid.svg">
                 <h3>Education</h3>
-                <p class="about-text">Radio/TV/Film (BS) - Univ of Texas at Austin <br />
-                    Graduate Certificate - Univ of Denver</p>
+                <p class="about-text"> Programming and Software Design <br />(Graduate Certificate) - Univ of Denver <br /> Radio/TV/Film (BS) - Univ of Texas at Austin
+                    </p>
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@
 <section class="cont-section" id="experience">
     <div>
         <p class="know">Explore My</p>
-        <h1 class="about">Experience</h1>
+        <h1 class="about">Skills</h1>
     </div>
     <div>
         <div class="cards">
@@ -153,24 +153,35 @@
         <h1 class="about">Projects</h1>
     </div>
     <div class="cards">
-        <div class="box">
+        <div class="pbox">
             <div class="screen">
                 <img class="app" src="./assets/finapp.png" alt="">
+                <p><i>Live demo may take additional time to build</i></p>
             </div>
-            <h4><b>Finance App</b></h4>
+            <h4 id="adjust"><b>Finance App</b></h4>
             <div class="buttons">
                 <button class="pbutton btn-color" onclick="location.href='https://github.com/dmt2016/FinanceApp'">Github</button>
                 <button class="pbutton btn-color" onclick="location.href='https://finapp-bmko.onrender.com/'">Live Demo</button>
             </div>
         </div>
-        <div class="box">
+        <div class="pbox">
             <div class="screen">
                 <img class="app" src="./assets/schapp.png" alt="">
             </div>
-            <h4><b>Scheduling App</b></h4>
+            <h4><b>Schedule App</b></h4>
             <div class="buttons">
                 <button class="pbutton btn-color" onclick="location.href='https://github.com/dmt2016/ScheduleApp'">Github</button>
-                <button class="pbutton btn-color" onclick="location.href='https://operatorapp.azurewebsites.net/'">Live Demo</button>
+<!--                <button class="pbutton btn-color" onclick="location.href='#'">Live Demo</button>-->
+            </div>
+        </div>
+        <div class="pbox">
+            <div class="screen">
+                <img class="app" src="./assets/qasite.png" alt="">
+            </div>
+            <h4><b>Training site</b></h4>
+            <div class="buttons">
+                <button class="pbutton btn-color" onclick="location.href='https://github.com/dmt2016/QAsite'">Github</button>
+                <button class="pbutton btn-color" onclick="location.href='https://qasite-h80a.onrender.com/'">Live Demo</button>
             </div>
         </div>
     </div>
@@ -204,7 +215,7 @@
         <div>
             <ul class="navlinks">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
