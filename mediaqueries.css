@@ -31,7 +31,7 @@
     }
 
     .fSkill {
-        min-width: 18vw;
+        min-width: 10vw;
     }
 
     #desktop-nav {
@@ -64,7 +64,19 @@
     }
 
     .double {
-        gap: 10rem;
+        gap: 4rem;
+        margin-bottom: .5rem;
+        width: 10vw;
+        min-width: 10vw;
+
+    }
+
+    .box{
+        min-width: 400px;
+    }
+
+    #sbox{
+        min-height: 200px;
     }
 }
 
