@@ -14,10 +14,14 @@
     #profile {
         height: 30%;
         margin-bottom: 10rem;
+        display: block;
+        justify-content: center;
     }
 
     #profile-img-section {
         margin-top: 0;
+        justify-content: center;
+        margin-bottom: 2rem;
     }
 
     section {
@@ -47,8 +51,8 @@
     }
 
     #img1 {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
     .box2 {
